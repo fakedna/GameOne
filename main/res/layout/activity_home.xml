@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ru.alice_zero.gameone.HomeActivity">
+
+    <Button
+        android:id="@+id/button_exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_exit"
+        android:onClick="ExitApp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"  />
+
+    <Button
+        android:id="@+id/button_options"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_options"
+        android:onClick="goToOptions"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"  />
+
+    <Button
+        android:id="@+id/button_shop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_shop"
+        android:onClick="goToShop"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="ru.alice_zero.gameone.HomeActivity"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button_castle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_castle"
+            android:onClick="goToCastle"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:id="@+id/button_worldmap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_worldmap"
+            android:onClick="goToMap"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:id="@+id/button_characters"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_characters"
+            android:onClick="goToCharacters"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:id="@+id/button_dungeon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_dungeon"
+            android:onClick="goToDungeon"
+            android:enabled="false"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:id="@+id/button_arena"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_arena"
+            android:onClick="goToArena"
+            android:enabled="false"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">GameOne</string>
+    <string name="dummy_content">AWESOME\nGAME</string>
+    <string name="button_castle">Castle</string>
+    <string name="button_worldmap">Worldmap</string>
+    <string name="button_shop">Shop</string>
+    <string name="button_characters">Characters</string>
+    <string name="button_dungeon">Dungeon</string>
+    <string name="button_arena">Arena</string>
+
+    <string name="title_activity_fullscreen_activitytest">FullscreenActivitytest</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="button_exit">Exit</string>
+    <string name="button_options">Options</string>
+</resources>
